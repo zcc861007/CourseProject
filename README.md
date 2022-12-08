@@ -87,6 +87,6 @@ Of course, there are several aspects that need to be improved.
 
 - The ground-truths were built by myself, so there could be inconsistency due to ambiguity in the writing of original text, complex relations, or my knowledge limitations about measures in thrombectomy. 
 - The small dataset was created from the literature about “thrombectomy”, so it is necessary to expand the dataset and consider other domains. 
-- I currently implemented a RNN to tackle the relation extraction of numerals and entities, while pretrained models such as BERT which encoding information from a large text corpus should be attempted.
+- I currently implemented a RNN to tackle the relation extraction of numerals and entities, while pretrained models such as BERT which encoded rich information of a large text corpus should be tested.
 
 
