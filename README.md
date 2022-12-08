@@ -74,7 +74,7 @@ Some randomly sampled predictions from the test set (that was not used for train
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/33674922/206327378-4ab5d7f2-078d-47a0-8fbe-999a094c889c.png">
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/33674922/206327395-ae5ecea8-a088-451d-87c1-2f5a7b752fc1.png">
 
-## Discussion
+## Improvement
 
 Although a small dataset for training was generated, I showed that the trained model is able to extract units and metrics related to numerals. The pipeline is viable to automatically extract quantitative data from literature. Of course, there are many aspects that need to be improved.
 
