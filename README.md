@@ -3,7 +3,7 @@
 
 **Chaochao Zhou (single member / project leader)**
 
-cz76@illinois.edu
+Email: cz76@illinois.edu
 
 ## Introduction
 
