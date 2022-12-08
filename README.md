@@ -1,5 +1,8 @@
 # CourseProject - MetaMining: Mining of Literature Data for Meta-analysis
-Chaochao Zhou (single member / project leader), cz76@illinois.edu
+
+**Chaochao Zhou (single member / project leader)**
+
+cz76@illinois.edu
 
 ## Introduction
 
