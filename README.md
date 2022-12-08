@@ -52,9 +52,7 @@ In total, 521 annotated sentences were expanded to 1758 examples (i.e., a pair o
 
 A many-to-many RNN was implemented. The learning curves of training were shown below. After training, the training accuracy is 0.9829 and the validation accracy is 0.9785.
 
-<img width="600" alt="image" src="https://user-images.githubusercontent.com/33674922/206329351-6dc39334-5e95-4ea8-a942-04efe01a42ec.png">
-<img width="412" alt="image" src="https://user-images.githubusercontent.com/33674922/206328300-6996d46b-c662-4471-810d-42bdcd5bbfe4.png">
-
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/33674922/206330013-3a28e1e6-63de-4fd2-9d4f-6d2d3b629b69.png">
 
 ## Implementation and Test
 
