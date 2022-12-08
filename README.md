@@ -20,7 +20,7 @@ For a numeral (N) in text, I aim to extract its relevant entities, including the
 
 - Multiple numerals may co-exist in a single sentence, so the relations corresponding to each numeral needs to be found. 
 - The lengths of words to describe entities (metrics and units) vary in different sentences.
-- A numeral may be associated with multiple metrics hierarchically; this work focuses on mining of the closest metric (e.g., in a clause).
+- A numeral may be associated with multiple metrics hierarchically; this work focuses on mining of the closest metric (e.g., in the clause).
 
 ### Contribution
 The project was proposed and implemented by Chaochao Zhou alone. Main works include:
