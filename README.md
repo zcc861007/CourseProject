@@ -66,7 +66,7 @@ Please see all codes and files in the "/Demo" folder in this repo:
 - A Colab notebook for demo: test.ipynb
 - Trained RNN model: current_model.h5
 - A testing dataset (/Demo/current_data) including:
-  - Dictionary for index-word conversion: index_word.pkl
+  - Index-word dictionary: index_word.pkl
   - Text (token sequence): x_test.pkl
   - Entity label: y_text.pkl
   - Numeral label: nl_text.pkl
