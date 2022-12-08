@@ -52,6 +52,9 @@ In total, 521 annotated sentences were expanded to 1758 examples (i.e., a pair o
 
 A many-to-many RNN was implemented. For more detail, please refer to: https://towardsdatascience.com/language-translation-with-rnns-d84d43b40571. The learning curves of training were shown below. After training, the training accuracy is 0.9829 and the validation accracy is 0.9785.
 
+<img width="412" alt="image" src="https://user-images.githubusercontent.com/33674922/206328300-6996d46b-c662-4471-810d-42bdcd5bbfe4.png">
+
+
 ## Implementation and Test
 
 ### Repo Files
