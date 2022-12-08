@@ -4,7 +4,7 @@ Chaochao Zhou (single member / project leader), cz76@illinois.edu
 ## Introduction
 
 ### Motivation
-A single study may include a small sample, which may lack statistical power in statistical analyses. Meta-analysis is attractive, as it is a statistical analysis that combines the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious, time-consuming, and error-prone. Therefore, it is desirable to develop a pipeline for automatic extraction of quantitative data from text
+A single study may include a small sample, which may lack statistical power in statistical analyses. Meta-analysis is attractive, as it is a statistical analysis that combines the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious and time-consuming. Therefore, it is desirable to develop a pipeline for automatic extraction of quantitative data from text
 
 ### Objective
 
@@ -28,7 +28,7 @@ The project was proposed and implemented by Chaochao Zhou alone. Main works incl
 
 ### Text Collection
 
-For the PubMed database, I collected 2451 abstracts of publications in the recent year (from Nov 2021 to Nov 2022) using a single keyword of “thrombectomy”. I randomly chose 100 abstracts, and segmented each abstract into sentences. Then, I filtered sentences that include numerals, resulting in 521 sentences. Further, each sentence was segmented into a list of words (unigram word-based learning)
+From the PubMed database, I collected 2451 abstracts of publications in the recent year (from Nov 2021 to Nov 2022) using a single keyword of “thrombectomy”. I randomly chose 100 abstracts, and segmented each abstract into sentences. Then, I filtered sentences that include numerals, resulting in 521 sentences. Further, each sentence was segmented into a list of words (unigram word-based learning)
 
 ### Text Annotation
 
@@ -46,13 +46,13 @@ The annotated relations were converted to lables (0 - None; 1 - Unit; 2 - Metric
 
 ### Training and Testing Sets
 
-In total, 521 annotated sentences were expanded to 1758 examples (i.e., a pair of text and label) with one marked numeral (other numerals were masked). The 1758 examples were randomly split into a training set with 1582 examples and a testing set with 176 examples
+In total, 521 annotated sentences were expanded to 1758 examples (i.e., text-label pairs) with one marked numeral (other numerals were masked). Using a ratio of 9:1, the total 1758 examples were randomly split into a training set with 1582 examples and a testing set with 176 examples
 
 ### RNN and Training
 
-A many-to-many RNN including embedding and GRUs was implemented. The learning curves of training were shown below. After training, the training accuracy is 0.9829 and the validation accracy is 0.9785.
+A many-to-many RNN including embedding and GRUs was implemented, with the learning curves during training shown below. After training, the training accuracy is 0.9829 and the validation accracy is 0.9785.
 
-<img width="708" alt="image" src="https://user-images.githubusercontent.com/33674922/206330013-3a28e1e6-63de-4fd2-9d4f-6d2d3b629b69.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/33674922/206424841-6e44b479-f764-44bb-bc1a-8ce6a3ae829b.png">
 
 ## Implementation and Test
 
@@ -75,9 +75,11 @@ Some randomly sampled predictions from the test set (that was not used for train
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/33674922/206327378-4ab5d7f2-078d-47a0-8fbe-999a094c889c.png">
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/33674922/206327395-ae5ecea8-a088-451d-87c1-2f5a7b752fc1.png">
 
-## Improvement
+## Summary and Improvement
 
-Although a small dataset for training was generated, I showed that the trained model is able to extract units and metrics related to numerals. The pipeline is viable to automatically extract quantitative data from literature. Of course, there are many aspects that need to be improved.
+The preliminary results showed that units and metrics associated with numerals can be extracted by RNN with decent prediction accuracy. The pipeline is viable to automatically extract structural data from publication texts, and the data of the same measure can be further filtered in combination with text retrieval. 
+
+Of course, there are several aspects that need to be improved.
 
 - The ground-truths were built by myself, so there could be inconsistency due to ambiguity in the writing of original text, complex relations, or my knowledge limitations about measures in thrombectomy. 
 - The small dataset was created from the literature about “thrombectomy”, so it is necessary to expand the dataset and consider other domains. 
