@@ -7,7 +7,7 @@ Email: cz76@illinois.edu
 
 ## Project Presentation
 
-
+[![Watch the video](https://img.youtube.com/vi/65VKSAbeNhg/hqdefault.jpg)](https://youtu.be/65VKSAbeNhg)
 
 ## Introduction
 
