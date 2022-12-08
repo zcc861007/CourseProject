@@ -25,7 +25,7 @@ For a numeral (N) in text, I aim to extract its relevant entities, including the
 ### Contribution
 The project was proposed and implemented by Chaochao Zhou alone. Main works include:
 - Collected texts and performed text pre-processing
-- Created a dataset including text annotation of entities and relations
+- Created a dataset with text annotation of entities and relations
 - Developed a recurrent neural network (RNN) and tested its performance 
 
 ## Methods
@@ -54,7 +54,7 @@ In total, 521 annotated sentences were expanded to 1758 examples (i.e., text-lab
 
 ### RNN and Training
 
-A many-to-many RNN including embedding and GRUs was implemented, with the learning curves during training shown below. After training, the training accuracy is 0.9829 and the validation accracy is 0.9785.
+A many-to-many RNN was implemented, with an embedding layer, multiple recurrent layers, and a dense layer as the output. The learning curves during training are shown below. At the last epoch, the training accuracy is 0.9829 and the validation accracy is 0.9785.
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/33674922/206424841-6e44b479-f764-44bb-bc1a-8ce6a3ae829b.png">
 
