@@ -56,15 +56,16 @@ A many-to-many RNN including embedding and GRUs was implemented. The learning cu
 
 ## Implementation and Test
 
-### Repo Files
+### Repo of Codes and Files
 
+Please see all codes and files in the "/Demo" folder in this repo:  
+- A Colab notebook for demo: test.ipynb
 - Trained RNN model: current_model.h5
 - Dictionary for index-word conversion: index_word.pkl
 - A testing dataset including:
   - Text (token sequence): x_test.pkl
   - Entity label: y_text.pkl
   - Numeral label: nl_text.pkl
-- A Colab notebook for demo: test.ipynb
 
 ### Testing
 
