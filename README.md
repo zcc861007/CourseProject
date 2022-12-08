@@ -4,7 +4,7 @@ Chaochao Zhou (single member / project leader), cz76@illinois.edu
 ## Introduction
 
 ### Motivation
-A single study may include a small sample, which may lack statistical power in statistical analyses. Meta-analysis is attractive, as it is a statistical analysis that combines the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious, time-consuming, error-prone. Therefore, it is desired to develop a pipeline for automatic extraction of quantitative data from text
+A single study may include a small sample, which may lack statistical power in statistical analyses. Meta-analysis is attractive, as it is a statistical analysis that combines the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious, time-consuming, and error-prone. Therefore, it is desired to develop a pipeline for automatic extraction of quantitative data from text
 
 ### Objective
 
