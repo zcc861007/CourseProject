@@ -16,7 +16,7 @@ A single study may include a small sample, which may lack statistical power in s
 
 ### Objective
 
-For a numeral (N) in text, I aim to extract its relevant entities, including the metric (M) and unit (U), for example
+Given a text, the objective of this work is to extract the related entities of a numeral (N), including the metric (M) and unit (U), for example
 
 <img width="798" alt="image" src="https://user-images.githubusercontent.com/33674922/206323838-e12320bc-2f0e-41eb-9c8a-bd868d7f3672.png">
 
