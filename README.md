@@ -25,7 +25,7 @@ All codes and files are provided in the "/Demo" folder in this repo:
 
 ### Motivation
 
-A single study may include a small sample, which may lack statistical power in statistical analyses. Meta-analysis is attractive, as it is a statistical analysis that combines the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious and time-consuming. Therefore, it is desirable to develop a pipeline for automatic extraction of quantitative data from text
+A single study may only include a small sample, which may lack statistical power in statistical analyses. Meta-analysis is attractive, as it is a statistical analysis that combines the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious and time-consuming. Therefore, it is desirable to develop a pipeline for automatic extraction of quantitative data from text
 
 ### Objective
 
