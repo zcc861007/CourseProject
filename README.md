@@ -9,6 +9,17 @@ Email: cz76@illinois.edu
 
 [![Watch the video](https://img.youtube.com/vi/65VKSAbeNhg/maxresdefault.jpg)](https://youtu.be/65VKSAbeNhg)
 
+## Implementation
+
+All codes and files are provided in the "/Demo" folder in this repo:  
+- A Colab notebook for demo: test.ipynb
+- Trained RNN model: current_model.h5
+- A testing dataset (/Demo/current_data) including:
+  - Index-word dictionary: index_word.pkl
+  - Text (token sequence): x_test.pkl
+  - Entity label: y_text.pkl
+  - Numeral label: nl_text.pkl
+
 ## Introduction
 
 ### Motivation
@@ -62,20 +73,7 @@ A many-to-many RNN was implemented, with an embedding layer, multiple recurrent 
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/33674922/206424841-6e44b479-f764-44bb-bc1a-8ce6a3ae829b.png">
 
-## Implementation and Test
-
-### Repo of Codes and Files
-
-Please see all codes and files in the "/Demo" folder in this repo:  
-- A Colab notebook for demo: test.ipynb
-- Trained RNN model: current_model.h5
-- A testing dataset (/Demo/current_data) including:
-  - Index-word dictionary: index_word.pkl
-  - Text (token sequence): x_test.pkl
-  - Entity label: y_text.pkl
-  - Numeral label: nl_text.pkl
-
-### Testing
+## Test
 
 Some randomly sampled predictions from the test set (that was not used for training) are demonstrated below:
 
@@ -83,7 +81,7 @@ Some randomly sampled predictions from the test set (that was not used for train
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/33674922/206327378-4ab5d7f2-078d-47a0-8fbe-999a094c889c.png">
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/33674922/206327395-ae5ecea8-a088-451d-87c1-2f5a7b752fc1.png">
 
-## Summary and Improvement
+## Summary
 
 The preliminary results showed that units and metrics associated with numerals can be extracted by RNN with decent prediction accuracy. The pipeline is viable to automatically extract structural data from publication texts, and the data of the same measure can be further filtered in combination with text retrieval. 
 
