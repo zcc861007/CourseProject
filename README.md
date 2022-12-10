@@ -39,7 +39,7 @@ Given a text, the objective of this work is to extract the related entities of a
 
 ### Contribution
 
-The project was proposed and implemented by Chaochao Zhou alone. Main works include:
+The project was proposed and implemented by **Chaochao Zhou** alone. Main works include:
 - Collected texts and performed text pre-processing
 - Created a dataset with text annotation of entities and relations
 - Developed a recurrent neural network (RNN) and tested its performance 
