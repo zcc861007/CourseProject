@@ -56,4 +56,4 @@ Some randomly sampled predictions from the test set (that was not used for train
 
 ### Summary
 
-The preliminary results showed that units and metrics associated with numerals can be extracted by RNN with decent prediction accuracy. The pipeline is viable to automatically extract structural data from publication texts, and the data of the same measure can be further filtered in combination with text retrieval. 
+The pipeline is viable to automatically extract structural data from publication texts, and all data of a measure can be further filtered and collected in combination with text retrieval implementations. 
