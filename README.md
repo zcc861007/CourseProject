@@ -12,7 +12,7 @@
 
 ## Implementation
 
-All codes and files are provided in the "/Demo" folder in this repo:  
+All codes and files are provided in the "/Demo" folder of this repo:  
 - A Colab notebook for demo: test.ipynb
 - Trained RNN model: current_model.h5
 - A testing dataset (/Demo/current_data) including:
