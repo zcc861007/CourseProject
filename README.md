@@ -23,11 +23,9 @@ All codes and files are provided in the "/Demo" folder of this repo:
 
 ## Project Overview
 
-### Motivation
+### Objective
 
 A single study may only include a small sample, which may lack statistical power in statistical analyses. Meta-analysis addresses this problem by combining the results of multiple scientific studies. However, meta-analysis requires researchers to extract/collect a large amount data by reviewing numerous publications, which is tedious and time-consuming. Therefore, it is desirable to develop a pipeline for automatic extraction of quantitative data from text
-
-### Objective
 
 Given a text, the objective of this work is to extract the related entities of a numeral (N), including the metric (M) and unit (U), for example
 
