@@ -8,7 +8,16 @@
 
 ## Presentation Recording
 
-[![Watch the video](https://img.youtube.com/vi/65VKSAbeNhg/maxresdefault.jpg)](https://youtu.be/65VKSAbeNhg)
+[![Watch the video](https://img.youtube.com/vi/65VKSAbeNhg/hqdefault.jpg)](https://youtu.be/65VKSAbeNhg)
+
+## Paper
+
+This work has been documented in a paper, which will be online assessed soon:
+
+**Text2Struct: A Machine Learning Pipeline for Mining Structured Data from Text**  
+[Chaochao Zhou](https://scholar.google.com/citations?hl=en&tzom=300&user=PYcUZ3YAAAAJ&authuser=1), [Bo Yang](https://scholar.google.com/citations?user=OEyXN00AAAAJ&hl=en&authuser=1&oi=ao)  
+Arxiv preprint 2022  
+[[arxiv](https://arxiv.org/abs/)]
 
 ## Implementation
 
