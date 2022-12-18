@@ -42,17 +42,17 @@ A single study may only include a small sample, which may lack statistical power
 
 Given a text, the objective of this work is to extract the related entities of a numeral (N), including the metric (M) and unit (U), for example
 
-<img width="798" alt="image" src="https://user-images.githubusercontent.com/33674922/206323838-e12320bc-2f0e-41eb-9c8a-bd868d7f3672.png">
+<img width="650" alt="image" src="https://user-images.githubusercontent.com/33674922/206323838-e12320bc-2f0e-41eb-9c8a-bd868d7f3672.png">
 
 ### Challenges
 
 - Multiple numerals may co-exist in a single sentence, so the relations corresponding to each numeral needs to be found. 
 - The lengths of words to describe entities (metrics and units) vary in different sentences.
-- A numeral may be associated with multiple metrics hierarchically; this work focuses on mining of the closest metric (e.g., in the clause).
+- A numeral may be associated with multiple metrics hierarchically.
 
 ### Contribution
 
-Main works that were proposed and implemented include:
+Main works that were proposed and completed to solve the mining problem include:
 - Collected texts and performed text pre-processing
 - Created a dataset with text annotation of entities and relations
 - Developed a recurrent neural network (RNN) and tested its performance 
@@ -67,4 +67,4 @@ Some randomly sampled predictions from the test set (that was not used for train
 
 ### Summary
 
-The pipeline is viable to automatically extract structural data from publication texts, and all data of a measure can be further filtered and collected in combination with text retrieval implementations. 
+It is shown that the pipeline is viable to automatically extract structural data from general texts without special templates/patterns. Within the mined structured data, important measures can be further filtered and collected in combination with text retrieval implementations. It is anticipated to achieve better performance by expanding the dataset and investigating other machine learning models. We are working on the improvement of this pipeline, and will release a newer version in the near future. 
