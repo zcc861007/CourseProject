@@ -12,7 +12,7 @@
 
 ## Paper
 
-This work has been documented in a paper, which will be online assessed soon:
+This work has been documented in a paper, which will be online accessed soon:
 
 **PAPER HAS BEEN SUBMITTED TO ARXIV**  
 [Chaochao Zhou](https://scholar.google.com/citations?user=PYcUZ3YAAAAJ&hl=en&authuser=1&oi=ao), [Bo Yang](https://scholar.google.com/citations?user=OEyXN00AAAAJ&hl=en&authuser=1&oi=ao)  
