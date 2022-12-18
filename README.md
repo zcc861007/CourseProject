@@ -14,7 +14,7 @@
 
 This work has been documented in a paper, which will be online accessed soon:
 
-**PAPER HAS BEEN SUBMITTED TO ARXIV**  
+**THE PAPER HAS BEEN SUBMITTED AND WILL BE RELEASED SOON**  
 [Chaochao Zhou](https://scholar.google.com/citations?user=PYcUZ3YAAAAJ&hl=en&authuser=1&oi=ao), [Bo Yang](https://scholar.google.com/citations?user=OEyXN00AAAAJ&hl=en&authuser=1&oi=ao)  
 Arxiv preprint 2022  
 [[arxiv](https://arxiv.org/abs/)]
