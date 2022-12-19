@@ -1,9 +1,7 @@
 # MetaMining: Mining of Literature Data for Meta-analysis
 
 **CS410 Course Project at UIUC**
-
 **Chaochao Zhou (single member / project leader)**
-
 **Email: cz76@illinois.edu**
 
 ## Presentation Recording
