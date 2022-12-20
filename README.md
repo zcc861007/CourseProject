@@ -11,12 +11,12 @@ Email: cz76@illinois.edu
 
 ## Paper
 
-This work has been documented in a paper, which will be online accessed soon:
+This work has been documented in a paper, which can be accessed online:
 
-**THE PAPER HAS BEEN SUBMITTED AND WILL BE RELEASED SOON**  
+**Text2Struct: A Machine Learning Pipeline for Mining Structured Data from Text**  
 [Chaochao Zhou](https://scholar.google.com/citations?user=PYcUZ3YAAAAJ&hl=en&authuser=1&oi=ao), [Bo Yang](https://scholar.google.com/citations?user=OEyXN00AAAAJ&hl=en&authuser=1&oi=ao)  
 Arxiv preprint 2022  
-[[arxiv](https://arxiv.org/abs/)]
+[[arxiv]([https://arxiv.org/abs/](https://arxiv.org/abs/2212.09044))]
 
 ## Implementation
 
