@@ -30,8 +30,8 @@ A Colab notebook "test.ipynb" is provided for demo. Please sequentially run the 
 - A testing dataset (current_data) including:
   - Index-word dictionary: index_word.pkl
   - Text (token sequence): x_test.pkl
-  - Entity label: y_text.pkl
-  - Numeral label: nl_text.pkl
+  - Entity label: y_test.pkl
+  - Numeral label: nl_test.pkl
 
 ## Project Overview
 
