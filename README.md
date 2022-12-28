@@ -66,4 +66,4 @@ Some randomly sampled predictions from the test set (that was not used for train
 
 ### Summary
 
-It is shown that the pipeline is viable to automatically extract structural data from general texts without special templates/patterns. Within the mined structured data, important measures can be further filtered and collected in combination with text retrieval implementations. It is anticipated to achieve better performance by expanding the dataset and investigating other machine learning models. We are working on the improvement of this pipeline, and stay tuned to a newer version that will be released in the near future. 
+It is shown that the pipeline is viable to automatically extract structural data from general texts without special templates/patterns. Within the mined structured data, important measures can be further filtered and collected in combination with text retrieval implementations. It is anticipated to achieve better performance by expanding the dataset and investigating other machine learning models. We are working on the improvement of this pipeline, and stay tuned to a newer version that will be released in the near future! 
